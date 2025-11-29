@@ -3,10 +3,19 @@ Petri nets are among the most fundamental and elegant mathematical models for de
 
 
 ## Requirement
-- Python3
-- numpy
-- pytest
+numpy>=1.24
+pytest>=7.0
+pyeda==0.28.0
 
-## Running test
-- To run all test:  pytest test_petriNet.py -vv
-  
+## Running step
+- Donwload PetriNet folder
+- Open folder in terminal
+- Create virtual enviroment:          python3 -m venv venv
+- Activate virtual enviroment: 
+     Window:                          venv\Scripts\Activate.ps1
+     Linux/MacOS:                     source venv/bin/activate
+- Install requirement libaries:       pip install -r requirements.txt
+- Run code:                           python3 run.py
+- Run all test:                       python3 -m pytest tests/ -v
+- Run single task:                    python3 -m pytest tests/[test_petriNet].py -v
+- Run single test in task:            python3 -m pytest tests/[test_petriNet].py::test_001 -v
