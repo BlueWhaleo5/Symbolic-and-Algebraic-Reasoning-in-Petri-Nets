@@ -21,11 +21,7 @@ Ensure you have the following Python packages installed:
 
 Follow these steps to get the project up and running on your local machine.
 
-1.  **Download the Repository**
-    ```bash
-    git clone https://github.com/your-username/Symbolic-and-Algebraic-Reasoning-in-Petri-Nets.git
-    cd Symbolic-and-Algebraic-Reasoning-in-Petri-Nets
-    ```
+1.  **Download the PertriNet folder**
 
 2.  **Set Up a Virtual Environment**
     ```bash
