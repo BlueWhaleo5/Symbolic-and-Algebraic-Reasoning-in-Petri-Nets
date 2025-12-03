@@ -60,7 +60,7 @@ filename = "./pnml/test6.pnml"
 # For testing Optimization task:
 
 |   Test   |    Place    | Transitions | Array c |
-|----------|-------------|----------------|---------------------------|
+|------------|---------------|------------------|-----------------------------|
 | `Test 1` | `3 places` | `3 transitions` | `c = np.array([1, -2, 3])` |
 | `Test 2` | `4 places` | `4 transitions` | `c = np.array([1, -2, 3, -1])` |
 | `Test 3` | `6 places` | `6 transitions` | `c = np.array([1, -2, 3, -1, 1, 2])` |
