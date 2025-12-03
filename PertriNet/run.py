@@ -13,7 +13,7 @@ def main():
     # ------------------------------------------------------
     # 1. Load Petri Net từ file PNML
     # ------------------------------------------------------
-    filename = "./pnml/test6.pnml"   # đổi file tại đây
+    filename = "./pnml/test6.pnml"   # change file path here
     print("Loading PNML:", filename)
 
     pn = Parser.from_pnml(filename)
