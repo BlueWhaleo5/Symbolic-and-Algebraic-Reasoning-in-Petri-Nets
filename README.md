@@ -47,6 +47,10 @@ Follow these steps to get the project up and running on your local machine.
     ```bash
     python3 run.py
     ```
+    or 
+    ```bash
+    python run.py > log.txt 2>&1   #to have output in log.txt file
+    ```
     
 ## Testing with PNML Files
 
