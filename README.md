@@ -21,7 +21,7 @@ Ensure you have the following Python packages installed:
 
 Follow these steps to get the project up and running on your local machine.
 
-1.  **Download the PertriNet folder**
+1.  **Download requirements.txt and the PertriNet folder**
 
 2.  **Set Up a Virtual Environment**
     ```bash
