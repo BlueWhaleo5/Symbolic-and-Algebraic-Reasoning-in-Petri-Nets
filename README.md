@@ -5,7 +5,7 @@ Petri nets are among the most fundamental and elegant mathematical models for de
 ## 📋 Table of Contents
 - [Requirements](#requirements)
 - [🚀 Quick Start](#quick-start)
-- [🧪 Running Tests](#running-tests)
+- [🧪 Running Test](#testing-with-PNML-Files)
 
 ## Requirements
 
