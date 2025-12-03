@@ -57,7 +57,7 @@ You can change the PNML file for testing by modifying line:
 filename = "./pnml/test6.pnml"
 ```
 
-# For testing Optimization task:
+## For testing Optimization task:
 
 |    Test    |    Place    | Transitions | Array c |
 |------------|---------------|------------------|-----------------------------|
@@ -68,9 +68,12 @@ filename = "./pnml/test6.pnml"
 |  `Test 5`  | `12 places` | `10 transitions` | `c = [1, -2, 3, -1, 1, 2, 3, 1, -1, -2, 4, 5]` |
 |  `Test 6`  | `30 places` | `30 transitions` | `c = [1, -2, 3, -1, 1, 2, 3, 1, -1, -2, 4, 5, 1, -2, 3, -1, 1, 2, 3, 1, -1, -2, 4, 5, 1, -2, 3, -1, 1, 2]` |
 
-To test with more than 30 places, please modify the code in Optimization.py to increase the limit of iterations in the optimization function.
+# Testing nets with more than 30 places
+The current implementation limits the search space for performance reasons.
 
-In Optimization.py, find and change 500000 to a larger number in the line:
+To handle larger nets (>30 places), increase the iteration limit in Optimization.py:
+
+Find this line:
 ```bash
 for i in range(min(500000, 2**n)):
 ```
