@@ -72,13 +72,3 @@ filename = "./pnml/test6.pnml"
 |  `Test 5`  | `12 places` | `10 transitions` | `c = [1, -2, 3, -1, 1, 2, 3, 1, -1, -2, 4, 5]` |
 |  `Test 6`  | `30 places` | `30 transitions` | `c = [1, -2, 3, -1, 1, 2, 3, 1, -1, -2, 4, 5, 1, -2, 3, -1, 1, 2, 3, 1, -1, -2, 4, 5, 1, -2, 3, -1, 1, 2]` |
 
-### Testing nets with more than 30 places
-The current implementation limits the search space for performance reasons.
-
-To handle larger nets (>30 places), increase the iteration limit in Optimization.py:
-
-Find this line:
-```bash
-for i in range(min(500000, 2**n)):
-```
-And change 500000 to a larger value (e.g., 2000000 or more), depending on your system’s memory and time constraints.
