@@ -24,8 +24,25 @@ Ensure you have the following Python packages installed:
 
 ## 🚀 Quick Start
 
-1.  **Download requirements.txt and the PertriNet folder**
+1.  **Download this repository and extract all**
 - Ensure that all source code files and the test cases (test1.pnml to test10.pnml) are located in the same directory (or adjust the path in main.py if necessary).
+- Assignment-CO2011-CSE251-XXXXXXX.zip
+│
+├── Report.pdf                
+├── README.md
+├── SourceCode/               
+│   ├── main.py
+│   ├── BDD.py
+│   ├── BFS.py
+│   ├── DFS.py
+│   ├── Deadlock.py
+│   ├── Optimization.py
+│   └── Parser.py
+│
+└── Testcases/                
+    ├── test1.pnml
+    ├── ...
+    └── test10.pnml
 - Open your terminal or command prompt and navigate to the source code directory.
 2.  **Set Up a Virtual Environment**
     ```bash
