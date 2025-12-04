@@ -55,7 +55,7 @@ Follow these steps to get the project up and running on your local machine.
     ```
     or 
     ```bash
-    python run.py > log.txt 2>&1   #to have output in log.txt file
+    python main.py > log.txt 2>&1   #to have output in log.txt file
     ```
     
 ##  PROJECT STRUCTURE
