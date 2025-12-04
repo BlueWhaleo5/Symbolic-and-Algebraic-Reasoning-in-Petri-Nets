@@ -24,8 +24,6 @@ Ensure you have the following Python packages installed:
 
 ## 🚀 Quick Start
 
-Follow these steps to get the project up and running on your local machine.
-
 1.  **Download requirements.txt and the PertriNet folder**
 - Ensure that all source code files and the test cases (test1.pnml to test10.pnml) are located in the same directory (or adjust the path in main.py if necessary).
 - Open your terminal or command prompt and navigate to the source code directory.
