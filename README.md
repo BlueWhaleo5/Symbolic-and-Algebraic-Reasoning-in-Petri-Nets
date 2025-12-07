@@ -26,9 +26,9 @@ Ensure you have the following Python packages installed:
 1.  **Download this repository and extract all**
 - Ensure that all source code files and the test cases (test1.pnml to test10.pnml) are located in the same directory like so(or adjust the path in main.py if necessary).
 ```bash
-Assignment-CO2011-CSE251-XXXXXXX.zip
+Symbolic and Algebraic Reasoning in Petri Nets.zip
 │
-├── Report.pdf                
+├── Document.pdf                
 ├── README.md
 ├── SourceCode/               
 │   ├── main.py
